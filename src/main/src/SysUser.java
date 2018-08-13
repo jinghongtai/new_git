@@ -26,6 +26,20 @@ public class SysUser {
 
     private String county;
 
+    private String privence;
+
+    private String remark;
+
+    private String school;
+
+    public String getSchool() {
+        return school;
+    }
+
+    public void setSchool(String school) {
+        this.school = school;
+    }
+
     public String getCounty() {
         return county;
     }
@@ -41,10 +55,6 @@ public class SysUser {
     public void setCity(String city) {
         this.city = city;
     }
-
-    private String privence;
-
-    private String remark;
 
     public String getRemark() {
         return remark;
