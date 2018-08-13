@@ -22,14 +22,14 @@ public class SysUser {
 
     private String email;
 
-    private String city;
+    private String privence;
 
-    public String getCity() {
-        return city;
+    public String getPrivence() {
+        return privence;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setPrivence(String privence) {
+        this.privence = privence;
     }
 
     public String getEmail() {
