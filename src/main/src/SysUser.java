@@ -32,6 +32,16 @@ public class SysUser {
 
     private String school;
 
+    private String  enabled;
+
+    public String getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(String enabled) {
+        this.enabled = enabled;
+    }
+
     public String getSchool() {
         return school;
     }
