@@ -22,6 +22,16 @@ public class SysUser {
 
     private String email;
 
+    private String city;
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public String getEmail() {
         return email;
     }
