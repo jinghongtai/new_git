@@ -1,0 +1,53 @@
+/**
+ * 版权归公司所有
+ * 项目名称： 应用支撑平台;
+ * 创建者    :  jinghongtai;
+ * 创建日期: 2018年08月11日 16:13;
+ *
+ * @version: 1.0
+ */
+public class SysUser {
+
+    private String name;
+
+    private String pwd;
+
+    private String address;
+
+    private int age;
+
+
+
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+}
