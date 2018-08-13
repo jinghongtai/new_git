@@ -16,8 +16,16 @@ public class SysUser {
 
     private int age;
 
+    private String telphone;
 
 
+    public String getTelphone() {
+        return telphone;
+    }
+
+    public void setTelphone(String telphone) {
+        this.telphone = telphone;
+    }
 
     public int getAge() {
         return age;
